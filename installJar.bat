@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=D:\\Download\\API_SALES_ORDER_SRV-clientsdk\\API_SALES_ORDER_SRV\\target\\com.sap.apibhub.sdk-1.0.0.jar -DgroupId=com.sap.apibhub -DartifactId=com.sap.apibhub.sdk -Dversion=1.0.0 -Dpackaging=jar
