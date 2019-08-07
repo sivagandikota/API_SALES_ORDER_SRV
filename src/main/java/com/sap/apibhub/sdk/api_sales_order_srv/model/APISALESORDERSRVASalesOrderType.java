@@ -452,23 +452,27 @@ public void setShippingCondition(String shippingCondition) {
   }
 
 
-  @Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class APISALESORDERSRVASalesOrderType {\n");
-    
-    sb.append("    salesOrder: ").append(toIndentedString(salesOrder)).append("\n");
-    sb.append("    salesOrderType: ").append(toIndentedString(salesOrderType)).append("\n");
-    sb.append("    toItem: ").append(toIndentedString(toItem)).append("\n");
-    sb.append("    toPartner: ").append(toIndentedString(toPartner)).append("\n");
-    sb.append("    toPaymentPlanItemDetails: ").append(toIndentedString(toPaymentPlanItemDetails)).append("\n");
-    sb.append("    toPricingElement: ").append(toIndentedString(toPricingElement)).append("\n");
-    sb.append("    toText: ").append(toIndentedString(toText)).append("\n");
-    sb.append("}");
-    return sb.toString();
-  }
+  
 
-  /**
+  @Override
+public String toString() {
+	return "APISALESORDERSRVASalesOrderType [salesOrder=" + salesOrder + ", salesOrderType=" + salesOrderType
+			+ ",\n salesOrganization=" + salesOrganization + ", distributionChannel=" + distributionChannel
+			+ ",\n organizationDivision=" + organizationDivision + ", salesGroup=" + salesGroup + ", salesOffice="
+			+ salesOffice + ",\n salesDistrict=" + salesDistrict + ", soldToParty=" + soldToParty
+			+ ",\n purchaseOrderByCustomer=" + purchaseOrderByCustomer + ", totalNetAmount=" + totalNetAmount
+			+ ",\n transactionCurrency=" + transactionCurrency + ", incotermsClassification=" + incotermsClassification
+			+ ",\n incotermsTransferLocation=" + incotermsTransferLocation + ", incotermsLocation1=" + incotermsLocation1
+			+ ",\n customerPaymentTerms=" + customerPaymentTerms + ", overallSDProcessStatus=" + overallSDProcessStatus
+			+ ",\n overallTotalDeliveryStatus=" + overallTotalDeliveryStatus + ", overallSDDocumentRejectionSts="
+			+ overallSDDocumentRejectionSts + ",\n creationDate=" + creationDate + ", createdByUser=" + createdByUser
+			+ ",\n lastChangeDateTime=" + lastChangeDateTime + ", salesOrderDate=" + salesOrderDate + ", pricingDate="
+			+ pricingDate + ",\n requestedDeliveryDate=" + requestedDeliveryDate + ", shippingCondition="
+			+ shippingCondition + ",\n toItem=" + toItem + ", toPartner=" + toPartner + ", toPaymentPlanItemDetails="
+			+ toPaymentPlanItemDetails + ",\n toPricingElement=" + toPricingElement + ", toText=" + toText + "]";
+}
+
+/**
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
