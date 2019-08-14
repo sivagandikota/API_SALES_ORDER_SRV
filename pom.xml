@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.sap.apibhub</groupId>
-  <artifactId>com.sap.apibhub.sdk</artifactId>
+  <groupId>com_sap_apibhub</groupId>
+  <artifactId>API_SALES_ORDER_SRV</artifactId>
   <packaging>jar</packaging>
-  <name>com.sap.apibhub.sdk</name>
+  <name>API_SALES_ORDER_SRV</name>
   <version>1.0.0</version>
   <url>https://github.com/swagger-api/swagger-codegen</url>
   <description>Generated for APIs in SAP API Business Hub</description>
@@ -13,7 +13,6 @@
   </prerequisites>
 
   <build>
-  <sourceDirectory>src/main/java</sourceDirectory>
   <pluginManagement>
     <plugins>
       <plugin>

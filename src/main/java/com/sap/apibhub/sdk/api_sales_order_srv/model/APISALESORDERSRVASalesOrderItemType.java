@@ -660,23 +660,37 @@ public class APISALESORDERSRVASalesOrderItemType {
   }
 
 
-  @Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class APISALESORDERSRVASalesOrderItemType {\n");
-    
-    sb.append("    salesOrder: ").append(toIndentedString(salesOrder)).append("\n");
-    sb.append("    salesOrderItem: ").append(toIndentedString(salesOrderItem)).append("\n");
-    sb.append("    toPartner: ").append(toIndentedString(toPartner)).append("\n");
-    sb.append("    toPricingElement: ").append(toIndentedString(toPricingElement)).append("\n");
-    sb.append("    toSalesOrder: ").append(toIndentedString(toSalesOrder)).append("\n");
-    sb.append("    toScheduleLine: ").append(toIndentedString(toScheduleLine)).append("\n");
-    sb.append("    toText: ").append(toIndentedString(toText)).append("\n");
-    sb.append("}");
-    return sb.toString();
-  }
+  
+  
 
-  /**
+  @Override
+public String toString() {
+	return "APISALESORDERSRVASalesOrderItemType [salesOrder=" + salesOrder + ", salesOrderItem=" + salesOrderItem
+			+ ",\n higherLevelItem=" + higherLevelItem + ", salesOrderItemCategory=" + salesOrderItemCategory
+			+ ",\n salesOrderItemText=" + salesOrderItemText + ", purchaseOrderByCustomer=" + purchaseOrderByCustomer
+			+ ",\n material=" + material + ", materialByCustomer=" + materialByCustomer + ", pricingDate=" + pricingDate
+			+ ",\n requestedQuantity=" + requestedQuantity + ", requestedQuantityUnit=" + requestedQuantityUnit
+			+ ",\n itemGrossWeight=" + itemGrossWeight + ", itemNetWeight=" + itemNetWeight + ", itemWeightUnit="
+			+ itemWeightUnit + ",\n itemVolume=" + itemVolume + ", itemVolumeUnit=" + itemVolumeUnit
+			+ ",\n transactionCurrency=" + transactionCurrency + ", netAmount=" + netAmount + ", materialGroup="
+			+ materialGroup + ",\n materialPricingGroup=" + materialPricingGroup + ", batch=" + batch
+			+ ",\n productionPlant=" + productionPlant + ", storageLocation=" + storageLocation + ", deliveryGroup="
+			+ deliveryGroup + ",\n shippingPoint=" + shippingPoint + ", shippingType=" + shippingType
+			+ ",\n deliveryPriority=" + deliveryPriority + ", incotermsClassification=" + incotermsClassification
+			+ ",\n incotermsTransferLocation=" + incotermsTransferLocation + ", incotermsLocation1=" + incotermsLocation1
+			+ ",\n incotermsLocation2=" + incotermsLocation2 + ", customerPaymentTerms=" + customerPaymentTerms
+			+ ",\n salesDocumentRjcnReason=" + salesDocumentRjcnReason + ", itemBillingBlockReason="
+			+ itemBillingBlockReason + ",\n wBSElement=" + wBSElement + ", profitCenter=" + profitCenter
+			+ ",\n referenceSDDocument=" + referenceSDDocument + ", referenceSDDocumentItem=" + referenceSDDocumentItem
+			+ ",\n sDProcessStatus=" + sDProcessStatus + ", deliveryStatus=" + deliveryStatus
+			+ ",\n orderRelatedBillingStatus=" + orderRelatedBillingStatus + ", yY1_PRODH1_SDI=" + yY1_PRODH1_SDI
+			+ ",\n yY1_MATWA_SDI=" + yY1_MATWA_SDI + ", yY1_Vendor_SDI=" + yY1_Vendor_SDI + ", yY1_Materialgroup3_SDI="
+			+ yY1_Materialgroup3_SDI + ",\n yY1_SampleProduct_SDI=" + yY1_SampleProduct_SDI + ", yY1_Materialgroup1_SDI="
+			+ yY1_Materialgroup1_SDI + ",\n toPartner=" + toPartner + ", toPricingElement=" + toPricingElement
+			+ ",\n toSalesOrder=" + toSalesOrder + ", toScheduleLine=" + toScheduleLine + ", toText=" + toText + "]";
+}
+
+/**
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
