@@ -34,8 +34,104 @@ import java.io.IOException;
 @ApiModel(description = "Sales Order Item (API)")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-06-25T07:18:58.114Z")
 public class APISALESORDERSRVASalesOrderItemTypeCreate {
+  @SerializedName("SalesOrder")
+  private String salesOrder = null;
+  
   @SerializedName("SalesOrderItem")
   private String salesOrderItem = null;
+  
+  @SerializedName("HigherLevelItem")
+  private String higherLevelItem = null;
+  @SerializedName("SalesOrderItemCategory")
+  private String salesOrderItemCategory = null;
+  @SerializedName("SalesOrderItemText")
+  private String salesOrderItemText = null;
+  @SerializedName("PurchaseOrderByCustomer")
+  private String purchaseOrderByCustomer = null;
+  @SerializedName("Material")
+  private String material = null;
+  @SerializedName("MaterialByCustomer")
+  private String materialByCustomer = null;
+  @SerializedName("PricingDate")
+  private String pricingDate = null;
+  @SerializedName("RequestedQuantity")
+  private String requestedQuantity = null;
+  @SerializedName("RequestedQuantityUnit")
+  private String requestedQuantityUnit = null;
+  @SerializedName("ItemGrossWeight")
+  private String itemGrossWeight = null;
+  @SerializedName("ItemNetWeight")
+  private String itemNetWeight = null;
+  @SerializedName("ItemWeightUnit")
+  private String itemWeightUnit = null;
+  @SerializedName("ItemVolume")
+  private String itemVolume = null;
+  @SerializedName("ItemVolumeUnit")
+  private String itemVolumeUnit = null;
+  @SerializedName("TransactionCurrency")
+  private String transactionCurrency = null;
+  @SerializedName("NetAmount")
+  private String netAmount = null;
+  @SerializedName("MaterialGroup")
+  private String materialGroup = null;
+  @SerializedName("MaterialPricingGroup")
+  private String materialPricingGroup = null;
+  @SerializedName("Batch")
+  private String batch = null;
+  @SerializedName("ProductionPlant")
+  private String productionPlant = null;
+  @SerializedName("StorageLocation")
+  private String storageLocation = null;
+  @SerializedName("DeliveryGroup")
+  private String deliveryGroup = null;
+  @SerializedName("ShippingPoint")
+  private String shippingPoint = null;
+  @SerializedName("ShippingType")
+  private String shippingType = null;
+  @SerializedName("DeliveryPriority")
+  private String deliveryPriority = null;
+  @SerializedName("IncotermsClassification")
+  private String incotermsClassification = null;
+  @SerializedName("IncotermsTransferLocation")
+  private String incotermsTransferLocation = null;
+  @SerializedName("IncotermsLocation1")
+  private String incotermsLocation1 = null;
+  @SerializedName("IncotermsLocation2")
+  private String incotermsLocation2 = null;
+  @SerializedName("CustomerPaymentTerms")
+  private String customerPaymentTerms = null;
+  @SerializedName("SalesDocumentRjcnReason")
+  private String salesDocumentRjcnReason = null;
+  @SerializedName("ItemBillingBlockReason")
+  private String itemBillingBlockReason = null;
+  @SerializedName("WBSElement")
+  private String wBSElement = null;
+  @SerializedName("ProfitCenter")
+  private String profitCenter = null;
+  @SerializedName("ReferenceSDDocument")
+  private String referenceSDDocument = null;
+  @SerializedName("ReferenceSDDocumentItem")
+  private String referenceSDDocumentItem = null;
+  @SerializedName("SDProcessStatus")
+  private String sDProcessStatus = null;
+  @SerializedName("DeliveryStatus")
+  private String deliveryStatus = null;
+  @SerializedName("OrderRelatedBillingStatus")
+  private String orderRelatedBillingStatus = null;
+  @SerializedName("YY1_PRODH1_SDI")
+  private String yY1_PRODH1_SDI = null;
+  @SerializedName("YY1_MATWA_SDI")
+  private String yY1_MATWA_SDI = null;
+  @SerializedName("YY1_Vendor_SDI")
+  private String yY1_Vendor_SDI = null;
+  @SerializedName("YY1_Materialgroup3_SDI")
+  private String yY1_Materialgroup3_SDI = null;
+  @SerializedName("YY1_SampleProduct_SDI")
+  private String yY1_SampleProduct_SDI = null;
+  @SerializedName("YY1_Materialgroup1_SDI")
+  private String yY1_Materialgroup1_SDI = null;
+  
+
 
   @SerializedName("to_Partner")
   private APISALESORDERSRVASalesOrderItemTypecreateToPartner toPartner = null;
@@ -69,8 +165,382 @@ public class APISALESORDERSRVASalesOrderItemTypeCreate {
   public void setSalesOrderItem(String salesOrderItem) {
     this.salesOrderItem = salesOrderItem;
   }
+  
+  
+  
+  
+  
+  
 
-  public APISALESORDERSRVASalesOrderItemTypeCreate toPartner(APISALESORDERSRVASalesOrderItemTypecreateToPartner toPartner) {
+  public String getSalesOrder() {
+	return salesOrder;
+}
+
+public void setSalesOrder(String salesOrder) {
+	this.salesOrder = salesOrder;
+}
+
+public String getHigherLevelItem() {
+	return higherLevelItem;
+}
+
+public void setHigherLevelItem(String higherLevelItem) {
+	this.higherLevelItem = higherLevelItem;
+}
+
+public String getSalesOrderItemCategory() {
+	return salesOrderItemCategory;
+}
+
+public void setSalesOrderItemCategory(String salesOrderItemCategory) {
+	this.salesOrderItemCategory = salesOrderItemCategory;
+}
+
+public String getSalesOrderItemText() {
+	return salesOrderItemText;
+}
+
+public void setSalesOrderItemText(String salesOrderItemText) {
+	this.salesOrderItemText = salesOrderItemText;
+}
+
+public String getPurchaseOrderByCustomer() {
+	return purchaseOrderByCustomer;
+}
+
+public void setPurchaseOrderByCustomer(String purchaseOrderByCustomer) {
+	this.purchaseOrderByCustomer = purchaseOrderByCustomer;
+}
+
+public String getMaterial() {
+	return material;
+}
+
+public void setMaterial(String material) {
+	this.material = material;
+}
+
+public String getMaterialByCustomer() {
+	return materialByCustomer;
+}
+
+public void setMaterialByCustomer(String materialByCustomer) {
+	this.materialByCustomer = materialByCustomer;
+}
+
+public String getPricingDate() {
+	return pricingDate;
+}
+
+public void setPricingDate(String pricingDate) {
+	this.pricingDate = pricingDate;
+}
+
+public String getRequestedQuantity() {
+	return requestedQuantity;
+}
+
+public void setRequestedQuantity(String requestedQuantity) {
+	this.requestedQuantity = requestedQuantity;
+}
+
+public String getRequestedQuantityUnit() {
+	return requestedQuantityUnit;
+}
+
+public void setRequestedQuantityUnit(String requestedQuantityUnit) {
+	this.requestedQuantityUnit = requestedQuantityUnit;
+}
+
+public String getItemGrossWeight() {
+	return itemGrossWeight;
+}
+
+public void setItemGrossWeight(String itemGrossWeight) {
+	this.itemGrossWeight = itemGrossWeight;
+}
+
+public String getItemNetWeight() {
+	return itemNetWeight;
+}
+
+public void setItemNetWeight(String itemNetWeight) {
+	this.itemNetWeight = itemNetWeight;
+}
+
+public String getItemWeightUnit() {
+	return itemWeightUnit;
+}
+
+public void setItemWeightUnit(String itemWeightUnit) {
+	this.itemWeightUnit = itemWeightUnit;
+}
+
+public String getItemVolume() {
+	return itemVolume;
+}
+
+public void setItemVolume(String itemVolume) {
+	this.itemVolume = itemVolume;
+}
+
+public String getItemVolumeUnit() {
+	return itemVolumeUnit;
+}
+
+public void setItemVolumeUnit(String itemVolumeUnit) {
+	this.itemVolumeUnit = itemVolumeUnit;
+}
+
+public String getTransactionCurrency() {
+	return transactionCurrency;
+}
+
+public void setTransactionCurrency(String transactionCurrency) {
+	this.transactionCurrency = transactionCurrency;
+}
+
+public String getNetAmount() {
+	return netAmount;
+}
+
+public void setNetAmount(String netAmount) {
+	this.netAmount = netAmount;
+}
+
+public String getMaterialGroup() {
+	return materialGroup;
+}
+
+public void setMaterialGroup(String materialGroup) {
+	this.materialGroup = materialGroup;
+}
+
+public String getMaterialPricingGroup() {
+	return materialPricingGroup;
+}
+
+public void setMaterialPricingGroup(String materialPricingGroup) {
+	this.materialPricingGroup = materialPricingGroup;
+}
+
+public String getBatch() {
+	return batch;
+}
+
+public void setBatch(String batch) {
+	this.batch = batch;
+}
+
+public String getProductionPlant() {
+	return productionPlant;
+}
+
+public void setProductionPlant(String productionPlant) {
+	this.productionPlant = productionPlant;
+}
+
+public String getStorageLocation() {
+	return storageLocation;
+}
+
+public void setStorageLocation(String storageLocation) {
+	this.storageLocation = storageLocation;
+}
+
+public String getDeliveryGroup() {
+	return deliveryGroup;
+}
+
+public void setDeliveryGroup(String deliveryGroup) {
+	this.deliveryGroup = deliveryGroup;
+}
+
+public String getShippingPoint() {
+	return shippingPoint;
+}
+
+public void setShippingPoint(String shippingPoint) {
+	this.shippingPoint = shippingPoint;
+}
+
+public String getShippingType() {
+	return shippingType;
+}
+
+public void setShippingType(String shippingType) {
+	this.shippingType = shippingType;
+}
+
+public String getDeliveryPriority() {
+	return deliveryPriority;
+}
+
+public void setDeliveryPriority(String deliveryPriority) {
+	this.deliveryPriority = deliveryPriority;
+}
+
+public String getIncotermsClassification() {
+	return incotermsClassification;
+}
+
+public void setIncotermsClassification(String incotermsClassification) {
+	this.incotermsClassification = incotermsClassification;
+}
+
+public String getIncotermsTransferLocation() {
+	return incotermsTransferLocation;
+}
+
+public void setIncotermsTransferLocation(String incotermsTransferLocation) {
+	this.incotermsTransferLocation = incotermsTransferLocation;
+}
+
+public String getIncotermsLocation1() {
+	return incotermsLocation1;
+}
+
+public void setIncotermsLocation1(String incotermsLocation1) {
+	this.incotermsLocation1 = incotermsLocation1;
+}
+
+public String getIncotermsLocation2() {
+	return incotermsLocation2;
+}
+
+public void setIncotermsLocation2(String incotermsLocation2) {
+	this.incotermsLocation2 = incotermsLocation2;
+}
+
+public String getCustomerPaymentTerms() {
+	return customerPaymentTerms;
+}
+
+public void setCustomerPaymentTerms(String customerPaymentTerms) {
+	this.customerPaymentTerms = customerPaymentTerms;
+}
+
+public String getSalesDocumentRjcnReason() {
+	return salesDocumentRjcnReason;
+}
+
+public void setSalesDocumentRjcnReason(String salesDocumentRjcnReason) {
+	this.salesDocumentRjcnReason = salesDocumentRjcnReason;
+}
+
+public String getItemBillingBlockReason() {
+	return itemBillingBlockReason;
+}
+
+public void setItemBillingBlockReason(String itemBillingBlockReason) {
+	this.itemBillingBlockReason = itemBillingBlockReason;
+}
+
+public String getwBSElement() {
+	return wBSElement;
+}
+
+public void setwBSElement(String wBSElement) {
+	this.wBSElement = wBSElement;
+}
+
+public String getProfitCenter() {
+	return profitCenter;
+}
+
+public void setProfitCenter(String profitCenter) {
+	this.profitCenter = profitCenter;
+}
+
+public String getReferenceSDDocument() {
+	return referenceSDDocument;
+}
+
+public void setReferenceSDDocument(String referenceSDDocument) {
+	this.referenceSDDocument = referenceSDDocument;
+}
+
+public String getReferenceSDDocumentItem() {
+	return referenceSDDocumentItem;
+}
+
+public void setReferenceSDDocumentItem(String referenceSDDocumentItem) {
+	this.referenceSDDocumentItem = referenceSDDocumentItem;
+}
+
+public String getsDProcessStatus() {
+	return sDProcessStatus;
+}
+
+public void setsDProcessStatus(String sDProcessStatus) {
+	this.sDProcessStatus = sDProcessStatus;
+}
+
+public String getDeliveryStatus() {
+	return deliveryStatus;
+}
+
+public void setDeliveryStatus(String deliveryStatus) {
+	this.deliveryStatus = deliveryStatus;
+}
+
+public String getOrderRelatedBillingStatus() {
+	return orderRelatedBillingStatus;
+}
+
+public void setOrderRelatedBillingStatus(String orderRelatedBillingStatus) {
+	this.orderRelatedBillingStatus = orderRelatedBillingStatus;
+}
+
+public String getyY1_PRODH1_SDI() {
+	return yY1_PRODH1_SDI;
+}
+
+public void setyY1_PRODH1_SDI(String yY1_PRODH1_SDI) {
+	this.yY1_PRODH1_SDI = yY1_PRODH1_SDI;
+}
+
+public String getyY1_MATWA_SDI() {
+	return yY1_MATWA_SDI;
+}
+
+public void setyY1_MATWA_SDI(String yY1_MATWA_SDI) {
+	this.yY1_MATWA_SDI = yY1_MATWA_SDI;
+}
+
+public String getyY1_Vendor_SDI() {
+	return yY1_Vendor_SDI;
+}
+
+public void setyY1_Vendor_SDI(String yY1_Vendor_SDI) {
+	this.yY1_Vendor_SDI = yY1_Vendor_SDI;
+}
+
+public String getyY1_Materialgroup3_SDI() {
+	return yY1_Materialgroup3_SDI;
+}
+
+public void setyY1_Materialgroup3_SDI(String yY1_Materialgroup3_SDI) {
+	this.yY1_Materialgroup3_SDI = yY1_Materialgroup3_SDI;
+}
+
+public String getyY1_SampleProduct_SDI() {
+	return yY1_SampleProduct_SDI;
+}
+
+public void setyY1_SampleProduct_SDI(String yY1_SampleProduct_SDI) {
+	this.yY1_SampleProduct_SDI = yY1_SampleProduct_SDI;
+}
+
+public String getyY1_Materialgroup1_SDI() {
+	return yY1_Materialgroup1_SDI;
+}
+
+public void setyY1_Materialgroup1_SDI(String yY1_Materialgroup1_SDI) {
+	this.yY1_Materialgroup1_SDI = yY1_Materialgroup1_SDI;
+}
+
+public APISALESORDERSRVASalesOrderItemTypeCreate toPartner(APISALESORDERSRVASalesOrderItemTypecreateToPartner toPartner) {
     this.toPartner = toPartner;
     return this;
   }
@@ -184,22 +654,39 @@ public class APISALESORDERSRVASalesOrderItemTypeCreate {
   }
 
 
+  
+  
+  
+  
+  
   @Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class APISALESORDERSRVASalesOrderItemTypeCreate {\n");
-    
-    sb.append("    salesOrderItem: ").append(toIndentedString(salesOrderItem)).append("\n");
-    sb.append("    toPartner: ").append(toIndentedString(toPartner)).append("\n");
-    sb.append("    toPricingElement: ").append(toIndentedString(toPricingElement)).append("\n");
-    sb.append("    toSalesOrder: ").append(toIndentedString(toSalesOrder)).append("\n");
-    sb.append("    toScheduleLine: ").append(toIndentedString(toScheduleLine)).append("\n");
-    sb.append("    toText: ").append(toIndentedString(toText)).append("\n");
-    sb.append("}");
-    return sb.toString();
-  }
+public String toString() {
+	return "APISALESORDERSRVASalesOrderItemTypeCreate [salesOrder=" + salesOrder + ", salesOrderItem=" + salesOrderItem
+			+ ",\n higherLevelItem=" + higherLevelItem + ", salesOrderItemCategory=" + salesOrderItemCategory
+			+ ",\n salesOrderItemText=" + salesOrderItemText + ", purchaseOrderByCustomer=" + purchaseOrderByCustomer
+			+ ",\n material=" + material + ", materialByCustomer=" + materialByCustomer + ", pricingDate=" + pricingDate
+			+ ",\n requestedQuantity=" + requestedQuantity + ", requestedQuantityUnit=" + requestedQuantityUnit
+			+ ",\n itemGrossWeight=" + itemGrossWeight + ", itemNetWeight=" + itemNetWeight + ", itemWeightUnit="
+			+ itemWeightUnit + ",\n itemVolume=" + itemVolume + ", itemVolumeUnit=" + itemVolumeUnit
+			+ ",\n transactionCurrency=" + transactionCurrency + ", netAmount=" + netAmount + ", materialGroup="
+			+ materialGroup + ",\n materialPricingGroup=" + materialPricingGroup + ", batch=" + batch
+			+ ",\n productionPlant=" + productionPlant + ", storageLocation=" + storageLocation + ", deliveryGroup="
+			+ deliveryGroup + ",\n shippingPoint=" + shippingPoint + ", shippingType=" + shippingType
+			+ ",\n deliveryPriority=" + deliveryPriority + ", incotermsClassification=" + incotermsClassification
+			+ ",\n incotermsTransferLocation=" + incotermsTransferLocation + ", incotermsLocation1=" + incotermsLocation1
+			+ ",\n incotermsLocation2=" + incotermsLocation2 + ", customerPaymentTerms=" + customerPaymentTerms
+			+ ",\n salesDocumentRjcnReason=" + salesDocumentRjcnReason + ", itemBillingBlockReason="
+			+ itemBillingBlockReason + ",\n wBSElement=" + wBSElement + ", profitCenter=" + profitCenter
+			+ ",\n referenceSDDocument=" + referenceSDDocument + ", referenceSDDocumentItem=" + referenceSDDocumentItem
+			+ ",\n sDProcessStatus=" + sDProcessStatus + ", deliveryStatus=" + deliveryStatus
+			+ ",\n orderRelatedBillingStatus=" + orderRelatedBillingStatus + ", yY1_PRODH1_SDI=" + yY1_PRODH1_SDI
+			+ ",\n yY1_MATWA_SDI=" + yY1_MATWA_SDI + ", yY1_Vendor_SDI=" + yY1_Vendor_SDI + ", yY1_Materialgroup3_SDI="
+			+ yY1_Materialgroup3_SDI + ",\n yY1_SampleProduct_SDI=" + yY1_SampleProduct_SDI + ", yY1_Materialgroup1_SDI="
+			+ yY1_Materialgroup1_SDI + ",\n toPartner=" + toPartner + ", toPricingElement=" + toPricingElement
+			+ ",\n toSalesOrder=" + toSalesOrder + ", toScheduleLine=" + toScheduleLine + ", toText=" + toText + "]";
+}
 
-  /**
+/**
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
